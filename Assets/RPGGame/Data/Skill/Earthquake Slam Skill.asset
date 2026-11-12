@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc50e8686a5b496482eff5c0101b092, type: 3}
+  m_Name: Earthquake Slam Skill
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.LaserRainSkillData
+  skillName: "\uBE44\uC804 \uD3ED\uD48D"
+  description: "\uC804\uBC29 \uC9C0\uBA74\uC5D0 \uB808\uC774\uC800\uB97C \uD22C\uD558\uD558\uB294 \uAD6C\uC5ED\uC744 \uC0DD\uC131\uD55C\uB2E4.\\n\uAD6C\uC5ED \uB0B4\uC758 \uC801\uC740 \uC9C0\uC18D \uD53C\uD574\uB97C \uC785\uB294\uB2E4."
+  icon: {fileID: 21300000, guid: 2456dd2824f5ec540830760922f5bac6, type: 3}
+  mpCost: 24
+  cooldown: 14
+  cooldownByLevel:
+  - 24
+  - 23
+  - 22
+  - 21
+  requiredPlayerLevel: 1
+  maxLevel: 4
+  powerGrowthPerLevel: 0.35
+  mpCostReductionPerLevel: 0.1
+  cooldownReductionPerLevel: 0.1
+  castLockDuration: 1.02
+  animationTrigger: Skill2
+  cancelsBasicAttack: 0
+  vfx: []
+  castSound: {fileID: 8300000, guid: 564c57f39ea2043538f10252be41874f, type: 3}
+  castSoundVolume: 0.68
+  castSoundDelay: 0.67
+  castDistance: 5.5
+  radius: 4.5
+  duration: 5
+  durationPerLevel: 1.5
+  tickInterval: 0.5
+  tickDamage: 25
+  attackRatio: 0.22
+  windupDelay: 0.67
+  zoneVfxPrefab: {fileID: 6382085471368086830, guid: eef89e417bd7642d4b781b573e277a5d, type: 3}

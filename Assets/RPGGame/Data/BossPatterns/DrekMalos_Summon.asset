@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7afc67bc9c4643f3ad06a955343b6a7, type: 3}
+  m_Name: DrekMalos_Summon
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.SummonPatternData
+  patternName: "\uC545\uB9C8 \uC18C\uD658"
+  description: "\uBCF4\uC2A4 \uC8FC\uBCC0 \uC6D0 \uC704 \uC138 \uACF3\uC5D0 \uBD88\uAF43\uC774 \uD130\uC9C0\uACE0, \uBCA8\uD06C\uB77C\uC2A4 3\uB9C8\uB9AC\uAC00 \uCC28\uB840\uB85C \uB098\uD0C0\uB098 \uB2EC\uB824\uB4E0\uB2E4"
+  minRange: 0
+  maxRange: 20
+  cooldown: 18
+  animationTrigger: Summon
+  animationDelay: 0
+  duration: 2
+  effectPrefab: {fileID: 3241048998728332405, guid: 1f8c2f8ac2f264e8d8d8452d93953aad, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: 75f0e53ad386743c394dbfbaf9573038, type: 3}
+  soundVolume: 0.6
+  damageMultiplier: 1
+  summonEnemyId: Vampire
+  summonCount: 3
+  summonLevel: 3
+  windUpTime: 0.9
+  summonRadius: 4.5
+  spawnEffectPrefab: {fileID: 3241048998728332405, guid: 1f8c2f8ac2f264e8d8d8452d93953aad, type: 3}
+  spawnDelay: 0.45
+  spawnStagger: 0.15
+  maxAliveMinions: 6

@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c305ce06c584a9b9a023b99d9ba586, type: 3}
+  m_Name: DrekMalos Data
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.BossData
+  enemyId: DrekMalos
+  enemyName: "\uB4DC\uB809 \uB9D0\uB85C\uC2A4"
+  enemyType: 3
+  detectionRange: 30
+  detectionAngle: 360
+  loseSightDuration: 1.5
+  aggroDuration: 6
+  attackRange: 5.5
+  rangeAttackRange: 16
+  moveSpeed: 2.5
+  patrolRotateSpeed: 240
+  chaseRotateSpeed: 240
+  patrolRadius: 12
+  patrolLegDuration: 8
+  patrolIdleTimeMin: 0.4
+  patrolIdleTimeMax: 1.4
+  separationRadius: 2.6
+  separationStrength: 2.2
+  goldMin: 250
+  goldMax: 400
+  drops:
+  - item: {fileID: 11400000, guid: 46573ee05f9624b1c9eaf9a46b9c9c4c, type: 2}
+    chance: 1
+    minCount: 2
+    maxCount: 3
+  - item: {fileID: 11400000, guid: b14f9bc4527cc4a4d9fc67f980ab6a60, type: 2}
+    chance: 1
+    minCount: 2
+    maxCount: 4
+  - item: {fileID: 11400000, guid: 8cc3469db583446f9a4db0cd8e963225, type: 2}
+    chance: 0.5
+    minCount: 1
+    maxCount: 1
+  - item: {fileID: 11400000, guid: bb12a2a955cd4409da4a775b8c0673c4, type: 2}
+    chance: 0.5
+    minCount: 1
+    maxCount: 1
+  levels:
+  - level: 1
+    maxHP: 9000
+    attack: 60
+    rangeAttack: 60
+    defense: 20
+    gainExp: 500
+  - level: 2
+    maxHP: 10800
+    attack: 70
+    rangeAttack: 70
+    defense: 22
+    gainExp: 700
+  - level: 3
+    maxHP: 13200
+    attack: 85
+    rangeAttack: 85
+    defense: 25
+    gainExp: 900
+  - level: 4
+    maxHP: 15600
+    attack: 95
+    rangeAttack: 95
+    defense: 28
+    gainExp: 1100
+  - level: 5
+    maxHP: 18000
+    attack: 110
+    rangeAttack: 110
+    defense: 32
+    gainExp: 1500
+  bossTitle: "\uC120\uBD09\uB300\uC7A5"
+  phases:
+  - phaseName: "\uD398\uC774\uC988 1"
+    enterHPRatio: 1
+    patterns:
+    - {fileID: 11400000, guid: e8f4d7c70bb29494fb079e9749d4b81c, type: 2}
+    - {fileID: 11400000, guid: a0d09855253384f5dbb5826d16fdbf71, type: 2}
+    - {fileID: 11400000, guid: ab659f5c8f3704e5a80874fce7f1bf48, type: 2}
+    attackInterval: 3.5
+    damageMultiplier: 1
+    transitionTrigger: 
+    transitionDuration: 0
+    transitionEffectPrefab: {fileID: 0}
+    transitionDialogue: 
+  - phaseName: "\uD398\uC774\uC988 2 (\uAD11\uD3ED\uD654)"
+    enterHPRatio: 0.5
+    patterns:
+    - {fileID: 11400000, guid: e8f4d7c70bb29494fb079e9749d4b81c, type: 2}
+    - {fileID: 11400000, guid: a0d09855253384f5dbb5826d16fdbf71, type: 2}
+    - {fileID: 11400000, guid: ab659f5c8f3704e5a80874fce7f1bf48, type: 2}
+    - {fileID: 11400000, guid: 29483e53c970748ef87840791d533886, type: 2}
+    - {fileID: 11400000, guid: 9d46018fb51524cc288c7168e6ea3f6a, type: 2}
+    attackInterval: 2.2
+    damageMultiplier: 1.4
+    transitionTrigger: Enrage
+    transitionDuration: 2
+    transitionEffectPrefab: {fileID: 0}
+    transitionDialogue: "\uC81C\uBC95\uC774\uAD70. \uD558\uC9C0\uB9CC \uC5EC\uAE30\uAE4C\uC9C0\uB2E4. \uC790\uB77C\uD1A4 \uB2D8\uC758 \uD798\uC744 \uB611\uB611\uD788 \uBCF4\uC5EC \uC8FC\uB9C8!"
+  emergencyHeal:
+    enabled: 0
+    triggerHPRatio: 0.2
+    healToHPRatio: 0.49
+    castDuration: 3
+    effectPrefab: {fileID: 0}
+    animationTrigger: 
+    dialogue: 
+    sounds: []
+    volume: 1
+  basicAttack: {fileID: 11400000, guid: b89e0adf4d7c14b2c9fd50bd1f2d4b4a, type: 2}
+  basicAttackRange: 4.2
+  basicAttackInterval: 1.8
+  encounterSounds:
+  - {fileID: 8300000, guid: 7ad86ef13df034c22b803bd87924a253, type: 3}
+  phaseSounds:
+  - {fileID: 8300000, guid: bda26afef1d79449c8662dd73d18cbf4, type: 3}
+  hitSounds:
+  - {fileID: 8300000, guid: b32bac6d67cad49cfb88218528801986, type: 3}
+  deathSounds:
+  - {fileID: 8300000, guid: 85b314fce0bde403a9b68c4844da459b, type: 3}
+  - {fileID: 8300000, guid: 6605881be63674bd2a00ef8516eeba7b, type: 3}
+  - {fileID: 8300000, guid: 36397fbd27b1f4df69854e219f2362c1, type: 3}
+  deathBodySounds:
+  - {fileID: 8300000, guid: 8570ab29a27dd481fbfb877594dd0031, type: 3}
+  soundVolume: 0.5
+  encounterVolume: 0.25
+  phaseVolume: 0.29
+  deathVolume: 0.5
+  encounterDialogue: "\uC544\uC5D8\uBE0C\uB9AC\uC2A4\uC758 \uD53C \uB0C4\uC0C8\uAC00 \uC5EC\uAE30\uAE4C\uC9C0 \uD48D\uAE30\uB294\uAD70.|\uC758\uC2DD\uC744 \uBC29\uD574\uD558\uB7EC \uC654\uB098, \uD544\uBA78\uC790? \uADF8 \uD53C\uB294 \uB0B4\uAC00 \uC9C1\uC811 \uAC70\uB46C \uC8FC\uB9C8!"
+  deathDialogue: "\uC774\uB7F0 \uACF3\uC5D0\uC11C... \uB0B4\uAC00... \uC790\uB77C\uD1A4 \uB2D8\uC758 \uAC01\uC131\uC740 \uC774\uBBF8... \uC2DC\uC791\uB410\uB2E4..."

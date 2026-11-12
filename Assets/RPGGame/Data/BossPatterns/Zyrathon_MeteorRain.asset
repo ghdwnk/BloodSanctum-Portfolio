@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4253b1c8741a462a99287ba482dff8a, type: 3}
+  m_Name: Zyrathon_MeteorRain
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.MeteorRainPatternData
+  patternName: "\uB099\uD558 \uB9C8\uBC95\uC9C4"
+  description: "\uD50C\uB808\uC774\uC5B4 \uC8FC\uBCC0\uC5D0 \uB9C8\uBC95\uC9C4\uC774 \uCC28\uB840\uB85C \uD130\uC9C4\uB2E4"
+  minRange: 0
+  maxRange: 20
+  cooldown: 10
+  animationTrigger: MagicArea
+  animationDelay: 0
+  duration: 4
+  effectPrefab: {fileID: 573483391229283948, guid: c4b380407d96044bf9dd819fd3812afe, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: a7113049d3024447e8e8d5b286c04a72, type: 3}
+  soundVolume: 0.6
+  damageMultiplier: 1.1
+  count: 6
+  radius: 2.6
+  scatterRadius: 7
+  delay: 1.7
+  spawnInterval: 0.4
+  fallPrefab: {fileID: 2821863649045237599, guid: c92bf96f3c4e045c69d2c056043c84a4, type: 3}
+  fallHeight: 16
+  fallSideOffset: 6
+  burnDuration: 5
+  burnTickInterval: 1
+  burnDamageMultiplier: 0.2
+  burnEffectPrefab: {fileID: 0}

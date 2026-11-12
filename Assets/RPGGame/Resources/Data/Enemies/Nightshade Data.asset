@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b1bddb2eaca54cc6b8f2d8198140fe1, type: 3}
+  m_Name: Nightshade Data
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.EnemyData
+  enemyId: Nightshade
+  enemyName: "\uB179\uC2DC\uC5D8"
+  enemyType: 1
+  detectionRange: 15
+  detectionAngle: 60
+  loseSightDuration: 1.5
+  aggroDuration: 6
+  attackRange: 8
+  rangeAttackRange: 8
+  moveSpeed: 0.9
+  patrolRotateSpeed: 360
+  chaseRotateSpeed: 540
+  patrolRadius: 12
+  patrolLegDuration: 8
+  patrolIdleTimeMin: 0.4
+  patrolIdleTimeMax: 1.4
+  separationRadius: 1.6
+  separationStrength: 2.2
+  goldMin: 10
+  goldMax: 26
+  drops:
+  - item: {fileID: 11400000, guid: d96aae15df0c241babb8a76194217efe, type: 2}
+    chance: 0.25
+    minCount: 1
+    maxCount: 1
+  - item: {fileID: 11400000, guid: b14f9bc4527cc4a4d9fc67f980ab6a60, type: 2}
+    chance: 0.1
+    minCount: 1
+    maxCount: 1
+  - item: {fileID: 11400000, guid: 49c7b34132bd4df2aaca975f452f0284, type: 2}
+    chance: 0.3
+    minCount: 1
+    maxCount: 1
+  levels:
+  - level: 1
+    maxHP: 160
+    attack: 30
+    rangeAttack: 30
+    defense: 1
+    gainExp: 40
+  - level: 2
+    maxHP: 176
+    attack: 33.5
+    rangeAttack: 33.5
+    defense: 2
+    gainExp: 50
+  - level: 3
+    maxHP: 200
+    attack: 37
+    rangeAttack: 37
+    defense: 3
+    gainExp: 55
+  - level: 4
+    maxHP: 216
+    attack: 40.5
+    rangeAttack: 40.5
+    defense: 4
+    gainExp: 65
+  - level: 5
+    maxHP: 240
+    attack: 44
+    rangeAttack: 44
+    defense: 5
+    gainExp: 80
+  - level: 6
+    maxHP: 264
+    attack: 47.5
+    rangeAttack: 47.5
+    defense: 6
+    gainExp: 90
+  - level: 7
+    maxHP: 280
+    attack: 51
+    rangeAttack: 51
+    defense: 7
+    gainExp: 100
+  - level: 8
+    maxHP: 296
+    attack: 54.5
+    rangeAttack: 54.5
+    defense: 8
+    gainExp: 115
+  - level: 9
+    maxHP: 320
+    attack: 58
+    rangeAttack: 58
+    defense: 9
+    gainExp: 130
+  - level: 10
+    maxHP: 360
+    attack: 61.5
+    rangeAttack: 61.5
+    defense: 10
+    gainExp: 150
+  - level: 11
+    maxHP: 382
+    attack: 65
+    rangeAttack: 65
+    defense: 11
+    gainExp: 170
+  - level: 12
+    maxHP: 404
+    attack: 68.5
+    rangeAttack: 68.5
+    defense: 12
+    gainExp: 190
+  - level: 13
+    maxHP: 426
+    attack: 72
+    rangeAttack: 72
+    defense: 13
+    gainExp: 200
+  - level: 14
+    maxHP: 448
+    attack: 75.5
+    rangeAttack: 75.5
+    defense: 14
+    gainExp: 215
+  - level: 15
+    maxHP: 470
+    attack: 79
+    rangeAttack: 79
+    defense: 15
+    gainExp: 225
+  - level: 16
+    maxHP: 492
+    attack: 82.5
+    rangeAttack: 82.5
+    defense: 16
+    gainExp: 240
+  - level: 17
+    maxHP: 514
+    attack: 86
+    rangeAttack: 86
+    defense: 17
+    gainExp: 255
+  - level: 18
+    maxHP: 536
+    attack: 89.5
+    rangeAttack: 89.5
+    defense: 18
+    gainExp: 270
+  - level: 19
+    maxHP: 558
+    attack: 93
+    rangeAttack: 93
+    defense: 19
+    gainExp: 285
+  - level: 20
+    maxHP: 580
+    attack: 96.5
+    rangeAttack: 96.5
+    defense: 20
+    gainExp: 300

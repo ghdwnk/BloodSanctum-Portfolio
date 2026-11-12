@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f67009bc3c64b2692bd350bd90ea31, type: 3}
+  m_Name: Zyrathon_MeleeSlash
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.ShockwavePatternData
+  patternName: "\uC2EC\uD310\uC758 \uC77C\uACA9"
+  description: 
+  minRange: 0
+  maxRange: 4
+  cooldown: 4
+  animationTrigger: MeleeSlash
+  animationDelay: 0.2
+  duration: 1.6
+  effectPrefab: {fileID: 8842949889244825294, guid: df40629a4248943c998c46c1a0687b53, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: 2ae6e67434cc44c8fbc033c5931d9857, type: 3}
+  soundVolume: 1
+  damageMultiplier: 1
+  windUpTime: 1
+  shockwaveRadius: 3
+  forwardOffset: 2
+  showTelegraph: 1

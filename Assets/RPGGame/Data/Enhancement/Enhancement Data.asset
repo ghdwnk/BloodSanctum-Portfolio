@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbad4214e34943bda83433935c9ce64, type: 3}
+  m_Name: Enhancement Data
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.EnhancementData
+  materialItem: {fileID: 11400000, guid: b14f9bc4527cc4a4d9fc67f980ab6a60, type: 2}
+  statRatePerLevel: 0.22
+  steps:
+  - materialCount: 1
+    goldCost: 80
+    successRate: 1
+  - materialCount: 2
+    goldCost: 150
+    successRate: 0.95
+  - materialCount: 2
+    goldCost: 260
+    successRate: 0.9
+  - materialCount: 3
+    goldCost: 420
+    successRate: 0.8
+  - materialCount: 4
+    goldCost: 600
+    successRate: 0.7
+  - materialCount: 6
+    goldCost: 900
+    successRate: 0.6
+  - materialCount: 8
+    goldCost: 1300
+    successRate: 0.5
+  - materialCount: 10
+    goldCost: 1800
+    successRate: 0.4
+  - materialCount: 12
+    goldCost: 2500
+    successRate: 0.32

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fead8054bf5e43068aa4c6ea5ac7296, type: 3}
+  m_Name: Ultimate Blast Skill
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.UltimateBlastSkillData
+  skillName: "\uBE14\uB7EC\uB4DC \uC18C\uB4DC"
+  description: "\uC790\uC2E0\uC744 \uC911\uC2EC\uC73C\uB85C \uAC70\uB300\uD55C \uAC80\uC744 \uB099\uD558\uC2DC\uCF1C \uC8FC\uBCC0 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C \uB9C9\uB300\uD55C \uD53C\uD574\uC640 \uB109\uBC31\uC744 \uC900\uB2E4.\\n\uCD94\uAC00\uB85C \uC9C0\uC18D \uD654\uC0C1\uD53C\uD574\uB97C \uAC00\uD55C\uB2E4."
+  icon: {fileID: 21300000, guid: 8ec5b52b09d90074a83d61c1334190f9, type: 3}
+  mpCost: 50
+  cooldown: 30
+  cooldownByLevel:
+  - 60
+  - 40
+  requiredPlayerLevel: 6
+  maxLevel: 2
+  powerGrowthPerLevel: 0.35
+  mpCostReductionPerLevel: 0.1
+  cooldownReductionPerLevel: 0.1
+  castLockDuration: 1.4
+  animationTrigger: Skill2
+  cancelsBasicAttack: 0
+  vfx:
+  - prefab: {fileID: 8429400377199986149, guid: aa3f9c726d67446ba93933fdca7490b2, type: 3}
+    delay: 0.06999999
+    lifetime: 4
+    localOffset: {x: 0, y: 0, z: 5.5}
+    followCaster: 0
+  castSound: {fileID: 8300000, guid: a8b36531992704c979a4671ef81e3685, type: 3}
+  castSoundVolume: 0.13
+  castSoundDelay: 0
+  radius: 10
+  castDistance: 5.5
+  damage: 600
+  attackRatio: 2.4
+  knockbackForce: 6
+  windupDelay: 0.67
+  burnDuration: 5
+  burnTickInterval: 1
+  burnRadius: 5
+  burnTickDamage: 60
+  burnAttackRatio: 0.3
+  emberVfxPrefab: {fileID: 3276082808127672082, guid: 44e5b1aa923304d13ac1e4ba41d24b21, type: 3}
+  emberVfxBaseRadius: 8.5

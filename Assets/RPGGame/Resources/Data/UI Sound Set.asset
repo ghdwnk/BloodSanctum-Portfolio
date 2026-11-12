@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116d73f4f69f14aad80533ea16c27ffd, type: 3}
+  m_Name: UI Sound Set
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.UISoundSet
+  toggle: {fileID: 8300000, guid: 56903dc04cec34d7b88534cb1f3c9f5a, type: 3}
+  click: {fileID: 8300000, guid: 5f0525447469d4e41b92b1f114abdd92, type: 3}
+  levelUp: {fileID: 8300000, guid: a33d7d3809a094d8cbe3e9d0f396e967, type: 3}
+  questClear: {fileID: 8300000, guid: d962c9014780b47648f300d403af8e32, type: 3}
+  potion: {fileID: 8300000, guid: 7b799ba3edd9d42b7927798c766fc831, type: 3}
+  questStart: {fileID: 8300000, guid: 5a93b0b90f45b4f82b13a9c9d1b2feb1, type: 3}
+  questAccept: {fileID: 8300000, guid: 0c6192762d5c14fc983c3aafbb7f54df, type: 3}

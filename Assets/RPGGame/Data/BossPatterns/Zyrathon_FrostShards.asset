@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb14cdf0f5884b7e9e16dc138ee7fe9, type: 3}
+  m_Name: Zyrathon_FrostShards
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.FrostConePatternData
+  patternName: "\uC5BC\uC74C \uD30C\uD3B8"
+  description: "\uBCF4\uC2A4 \uC55E\uCABD \uC6D0\uBFD4 \uBC94\uC704\uC5D0 \uC5BC\uC74C \uD30C\uD3B8\uC744 \uC3D8\uC544 \uBCF4\uB0B8\uB2E4. \uB9DE\uC73C\uBA74 \uD53C\uD574\uB97C \uC785\uACE0 5\uCD08\uAC04 \uC774\uB3D9\uC18D\uB3C4\uAC00 \uB290\uB824\uC9C4\uB2E4."
+  minRange: 0
+  maxRange: 14
+  cooldown: 9
+  animationTrigger: MagicBolt
+  animationDelay: 0.5
+  duration: 2.2
+  effectPrefab: {fileID: 3156866507962234106, guid: 645ebd7cef59b7b40b27c29bf3e99cf2, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: 8d200dcf34e824085af6190683371684, type: 3}
+  soundVolume: 1
+  damageMultiplier: 1
+  coneLength: 12
+  coneAngle: 60
+  windUpTime: 1.2
+  effectYawOffset: -90
+  effectScale: 1.35
+  effectLifeTime: 3
+  slowMultiplier: 0.5
+  slowDuration: 5
+  slowTint: {r: 0.35, g: 0.65, b: 1, a: 1}

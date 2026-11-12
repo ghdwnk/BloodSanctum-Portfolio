@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84af93e4c57f7498fa7c04a82cede8d7, type: 3}
+  m_Name: Iron Defense Skill
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.IronDefenseSkillData
+  skillName: "\uC544\uC5D8\uBE0C\uB9AC\uC2A4\uC758 \uAC00\uD638"
+  description: "\uC544\uC5D8\uBE0C\uB9AC\uC2A4\uC758 \uAC00\uD638\uB97C \uBC1B\uC544 \uBC29\uC5B4\uB825\uC744 \uD06C\uAC8C \uC0C1\uC2B9\uC2DC\uD0A8\uB2E4."
+  icon: {fileID: 21300000, guid: 8a96b38c76be79946a150249547b07bc, type: 3}
+  mpCost: 12
+  cooldown: 15
+  cooldownByLevel:
+  - 28
+  - 26
+  - 24
+  - 22
+  requiredPlayerLevel: 1
+  maxLevel: 4
+  powerGrowthPerLevel: 0.35
+  mpCostReductionPerLevel: 0.1
+  cooldownReductionPerLevel: 0.1
+  castLockDuration: 0.9
+  animationTrigger: Skill4
+  cancelsBasicAttack: 0
+  vfx:
+  - prefab: {fileID: 8398826900202335305, guid: ed5eb9ec7bf3e430589840168e15c3ec, type: 3}
+    delay: 0.15
+    lifetime: 12
+    localOffset: {x: 0, y: 0, z: 0}
+    followCaster: 1
+  castSound: {fileID: 8300000, guid: 01bfa93bfabbd4dffad65123211a6508, type: 3}
+  castSoundVolume: 0.28
+  castSoundDelay: 0
+  bonusDefense: 30
+  buffDuration: 12

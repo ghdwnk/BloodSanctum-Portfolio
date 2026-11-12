@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58bcd59bb58374c37867ef57f16169a8, type: 3}
+  m_Name: DrekMalos_Charge
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.ChargePatternData
+  patternName: "\uB3CC\uC9C4 \uAC15\uD0C0"
+  description: 
+  minRange: 4
+  maxRange: 14
+  cooldown: 7
+  animationTrigger: Charge
+  animationDelay: 1.1
+  duration: 2.3
+  effectPrefab: {fileID: 4963338038429265383, guid: b234df3c049a14f5d95178f94ae9debe, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: 3310d7959ba284bf79c2b701ec7b2310, type: 3}
+  soundVolume: 0.35
+  damageMultiplier: 1.2
+  windUpTime: 1.3
+  chargeSpeed: 14
+  chargeDuration: 0.7
+  hitRadius: 3.2

@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b1bddb2eaca54cc6b8f2d8198140fe1, type: 3}
+  m_Name: Skeletonzombie Data
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.EnemyData
+  enemyId: Skeletonzombie
+  enemyName: "\uACE0\uB974\uB9C9"
+  enemyType: 2
+  detectionRange: 8
+  detectionAngle: 60
+  loseSightDuration: 1.5
+  aggroDuration: 6
+  attackRange: 2
+  rangeAttackRange: 0
+  moveSpeed: 0.7
+  patrolRotateSpeed: 360
+  chaseRotateSpeed: 540
+  patrolRadius: 12
+  patrolLegDuration: 8
+  patrolIdleTimeMin: 0.4
+  patrolIdleTimeMax: 1.4
+  separationRadius: 1.6
+  separationStrength: 2.2
+  goldMin: 20
+  goldMax: 45
+  drops:
+  - item: {fileID: 11400000, guid: d96aae15df0c241babb8a76194217efe, type: 2}
+    chance: 0.3
+    minCount: 1
+    maxCount: 2
+  - item: {fileID: 11400000, guid: b14f9bc4527cc4a4d9fc67f980ab6a60, type: 2}
+    chance: 0.12
+    minCount: 1
+    maxCount: 1
+  - item: {fileID: 11400000, guid: 49c7b34132bd4df2aaca975f452f0284, type: 2}
+    chance: 0.3
+    minCount: 1
+    maxCount: 1
+  levels:
+  - level: 1
+    maxHP: 400
+    attack: 45
+    rangeAttack: 0
+    defense: 1
+    gainExp: 40
+  - level: 2
+    maxHP: 440
+    attack: 50
+    rangeAttack: 0
+    defense: 2
+    gainExp: 50
+  - level: 3
+    maxHP: 500
+    attack: 55
+    rangeAttack: 0
+    defense: 3
+    gainExp: 55
+  - level: 4
+    maxHP: 540
+    attack: 60
+    rangeAttack: 0
+    defense: 4
+    gainExp: 65
+  - level: 5
+    maxHP: 600
+    attack: 65
+    rangeAttack: 0
+    defense: 5
+    gainExp: 80
+  - level: 6
+    maxHP: 660
+    attack: 70
+    rangeAttack: 0
+    defense: 6
+    gainExp: 90
+  - level: 7
+    maxHP: 700
+    attack: 75
+    rangeAttack: 0
+    defense: 7
+    gainExp: 100
+  - level: 8
+    maxHP: 740
+    attack: 80
+    rangeAttack: 0
+    defense: 8
+    gainExp: 115
+  - level: 9
+    maxHP: 800
+    attack: 85
+    rangeAttack: 0
+    defense: 9
+    gainExp: 130
+  - level: 10
+    maxHP: 900
+    attack: 90
+    rangeAttack: 0
+    defense: 10
+    gainExp: 150
+  - level: 11
+    maxHP: 956
+    attack: 95
+    rangeAttack: 0
+    defense: 11
+    gainExp: 170
+  - level: 12
+    maxHP: 1012
+    attack: 100
+    rangeAttack: 0
+    defense: 12
+    gainExp: 190
+  - level: 13
+    maxHP: 1068
+    attack: 105
+    rangeAttack: 0
+    defense: 13
+    gainExp: 200
+  - level: 14
+    maxHP: 1124
+    attack: 110
+    rangeAttack: 0
+    defense: 14
+    gainExp: 215
+  - level: 15
+    maxHP: 1180
+    attack: 115
+    rangeAttack: 0
+    defense: 15
+    gainExp: 225
+  - level: 16
+    maxHP: 1236
+    attack: 120
+    rangeAttack: 0
+    defense: 16
+    gainExp: 240
+  - level: 17
+    maxHP: 1292
+    attack: 125
+    rangeAttack: 0
+    defense: 17
+    gainExp: 255
+  - level: 18
+    maxHP: 1348
+    attack: 130
+    rangeAttack: 0
+    defense: 18
+    gainExp: 270
+  - level: 19
+    maxHP: 1404
+    attack: 135
+    rangeAttack: 0
+    defense: 19
+    gainExp: 285
+  - level: 20
+    maxHP: 1460
+    attack: 140
+    rangeAttack: 0
+    defense: 20
+    gainExp: 300

@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Unity-generated
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/Builds/
+
+# IDE
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user

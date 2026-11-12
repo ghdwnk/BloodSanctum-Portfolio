@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49cb4e19a9dad4d26946a5cac3df9bbb, type: 3}
+  m_Name: General Store
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.ShopData
+  shopName: "\uC7A1\uD654 \uC0C1\uC810"
+  sellRatio: 0.3
+  entries:
+  - item: {fileID: 11400000, guid: d96aae15df0c241babb8a76194217efe, type: 2}
+    price: 20
+    requiredLevel: 1
+  - item: {fileID: 11400000, guid: 46573ee05f9624b1c9eaf9a46b9c9c4c, type: 2}
+    price: 60
+    requiredLevel: 5
+  - item: {fileID: 11400000, guid: b14f9bc4527cc4a4d9fc67f980ab6a60, type: 2}
+    price: 120
+    requiredLevel: 3

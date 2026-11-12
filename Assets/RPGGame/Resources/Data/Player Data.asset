@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8059c47eb2fa141e186b55493e1117d4, type: 3}
+  m_Name: Player Data
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerData
+  levels:
+  - level: 1
+    maxHP: 200
+    maxMP: 60
+    attack: 30
+    defense: 20
+    critRate: 1
+    requiredExp: 0
+  - level: 2
+    maxHP: 240
+    maxMP: 66
+    attack: 35
+    defense: 23
+    critRate: 1
+    requiredExp: 100
+  - level: 3
+    maxHP: 280
+    maxMP: 72
+    attack: 40
+    defense: 26
+    critRate: 1
+    requiredExp: 300
+  - level: 4
+    maxHP: 320
+    maxMP: 78
+    attack: 45
+    defense: 29
+    critRate: 1
+    requiredExp: 650
+  - level: 5
+    maxHP: 360
+    maxMP: 84
+    attack: 50
+    defense: 32
+    critRate: 1
+    requiredExp: 1200
+  - level: 6
+    maxHP: 400
+    maxMP: 90
+    attack: 55
+    defense: 35
+    critRate: 1
+    requiredExp: 2000
+  - level: 7
+    maxHP: 440
+    maxMP: 96
+    attack: 60
+    defense: 38
+    critRate: 1
+    requiredExp: 3100
+  - level: 8
+    maxHP: 480
+    maxMP: 102
+    attack: 65
+    defense: 41
+    critRate: 1
+    requiredExp: 4600
+  - level: 9
+    maxHP: 520
+    maxMP: 108
+    attack: 70
+    defense: 44
+    critRate: 1
+    requiredExp: 6600
+  - level: 10
+    maxHP: 560
+    maxMP: 114
+    attack: 75
+    defense: 47
+    critRate: 1
+    requiredExp: 9200
+  - level: 11
+    maxHP: 600
+    maxMP: 120
+    attack: 80
+    defense: 50
+    critRate: 1
+    requiredExp: 12500
+  - level: 12
+    maxHP: 640
+    maxMP: 126
+    attack: 85
+    defense: 53
+    critRate: 1
+    requiredExp: 16500
+  - level: 13
+    maxHP: 680
+    maxMP: 132
+    attack: 90
+    defense: 56
+    critRate: 1
+    requiredExp: 21300
+  - level: 14
+    maxHP: 720
+    maxMP: 138
+    attack: 95
+    defense: 59
+    critRate: 1
+    requiredExp: 27000
+  - level: 15
+    maxHP: 760
+    maxMP: 144
+    attack: 100
+    defense: 62
+    critRate: 1
+    requiredExp: 34000
+  - level: 16
+    maxHP: 800
+    maxMP: 150
+    attack: 105
+    defense: 65
+    critRate: 1
+    requiredExp: 42300
+  - level: 17
+    maxHP: 840
+    maxMP: 156
+    attack: 110
+    defense: 68
+    critRate: 1
+    requiredExp: 51900
+  moveSpeed: 5.8
+  rotationSpeed: 1000
+  baseCritDamage: 150
+  skillPointPerLevel: 1
+  statPointPerLevel: 2
+  attackPerStatPoint: 2
+  defensePerStatPoint: 2
+  maxHPPerStatPoint: 20
+  critRatePerStatPoint: 1

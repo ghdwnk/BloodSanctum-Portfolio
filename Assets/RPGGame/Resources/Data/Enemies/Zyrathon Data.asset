@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c305ce06c584a9b9a023b99d9ba586, type: 3}
+  m_Name: Zyrathon Data
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.BossData
+  enemyId: Zyrathon
+  enemyName: "\uC790\uB77C\uD1A4"
+  enemyType: 3
+  detectionRange: 30
+  detectionAngle: 360
+  loseSightDuration: 1.5
+  aggroDuration: 6
+  attackRange: 4
+  rangeAttackRange: 16
+  moveSpeed: 2.5
+  patrolRotateSpeed: 240
+  chaseRotateSpeed: 240
+  patrolRadius: 12
+  patrolLegDuration: 8
+  patrolIdleTimeMin: 0.4
+  patrolIdleTimeMax: 1.4
+  separationRadius: 1.6
+  separationStrength: 2.2
+  goldMin: 400
+  goldMax: 700
+  drops:
+  - item: {fileID: 11400000, guid: 46573ee05f9624b1c9eaf9a46b9c9c4c, type: 2}
+    chance: 1
+    minCount: 3
+    maxCount: 4
+  - item: {fileID: 11400000, guid: b14f9bc4527cc4a4d9fc67f980ab6a60, type: 2}
+    chance: 1
+    minCount: 3
+    maxCount: 5
+  - item: {fileID: 11400000, guid: ca564c80ab9ca4023bbe42f43e89185c, type: 2}
+    chance: 0.6
+    minCount: 1
+    maxCount: 1
+  - item: {fileID: 11400000, guid: 8cc3469db583446f9a4db0cd8e963225, type: 2}
+    chance: 0.4
+    minCount: 1
+    maxCount: 1
+  levels:
+  - level: 1
+    maxHP: 30000
+    attack: 80
+    rangeAttack: 80
+    defense: 25
+    gainExp: 1500
+  - level: 2
+    maxHP: 36000
+    attack: 95
+    rangeAttack: 95
+    defense: 28
+    gainExp: 2000
+  - level: 3
+    maxHP: 43200
+    attack: 110
+    rangeAttack: 110
+    defense: 32
+    gainExp: 2600
+  - level: 4
+    maxHP: 50400
+    attack: 125
+    rangeAttack: 125
+    defense: 36
+    gainExp: 3200
+  - level: 5
+    maxHP: 60000
+    attack: 140
+    rangeAttack: 140
+    defense: 40
+    gainExp: 5000
+  bossTitle: "\uB9C8\uACC4\uC758 \uAD70\uC8FC"
+  phases:
+  - phaseName: "\uD398\uC774\uC988 1 (\uBC18\uAC01\uC131)"
+    enterHPRatio: 1
+    patterns:
+    - {fileID: 11400000, guid: 76075132f07ad4cb382feebcf9874655, type: 2}
+    - {fileID: 11400000, guid: ba123a874740b4de78ce402fce95f010, type: 2}
+    - {fileID: 11400000, guid: 1fa786239a6684ed8b25b0d73e6bf75f, type: 2}
+    - {fileID: 11400000, guid: 347d208d2365546138da8d72f36bd082, type: 2}
+    - {fileID: 11400000, guid: 84f0c381106704ce5aa41e09fe7896c4, type: 2}
+    attackInterval: 2.8
+    damageMultiplier: 1.1
+    transitionTrigger: 
+    transitionDuration: 0
+    transitionEffectPrefab: {fileID: 0}
+    transitionDialogue: 
+  - phaseName: "\uD398\uC774\uC988 2 (\uC644\uC804\uAC01\uC131)"
+    enterHPRatio: 0.5
+    patterns:
+    - {fileID: 11400000, guid: 76075132f07ad4cb382feebcf9874655, type: 2}
+    - {fileID: 11400000, guid: ba123a874740b4de78ce402fce95f010, type: 2}
+    - {fileID: 11400000, guid: 1fa786239a6684ed8b25b0d73e6bf75f, type: 2}
+    - {fileID: 11400000, guid: 51837bdaff4b446a58be90aea3455b1b, type: 2}
+    - {fileID: 11400000, guid: f8d892f2802624e6dadb241151de7388, type: 2}
+    - {fileID: 11400000, guid: 347d208d2365546138da8d72f36bd082, type: 2}
+    - {fileID: 11400000, guid: 84f0c381106704ce5aa41e09fe7896c4, type: 2}
+    attackInterval: 1.8
+    damageMultiplier: 1.5
+    transitionTrigger: PhaseUp
+    transitionDuration: 2.5
+    transitionEffectPrefab: {fileID: 0}
+    transitionDialogue: "\uAC00\uC18C\uB86D\uAD6C\uB098. \uC774\uAC83\uC774\uC57C\uB9D0\uB85C \uC9C4\uC815\uD55C \uB098\uC758 \uBAA8\uC2B5\uC774\uB2E4!"
+  emergencyHeal:
+    enabled: 1
+    triggerHPRatio: 0.2
+    healToHPRatio: 0.49
+    castDuration: 3
+    effectPrefab: {fileID: 7829825776102269990, guid: 3c3ae5e10d95d4cbebd638f4840cbe62, type: 3}
+    animationTrigger: MagicArea
+    dialogue: 
+    sounds:
+    - {fileID: 8300000, guid: bceca392d502f461bb62f00932beb803, type: 3}
+    volume: 0.55
+  basicAttack: {fileID: 11400000, guid: 0246697799b3e4f6daae184b4799398f, type: 2}
+  basicAttackRange: 3.4
+  basicAttackInterval: 1.5
+  encounterSounds:
+  - {fileID: 8300000, guid: 0fd0578eb2cbe4aa980fde880b35aad9, type: 3}
+  phaseSounds:
+  - {fileID: 8300000, guid: dc9a1fa9068004fa084ad4096a380574, type: 3}
+  hitSounds:
+  - {fileID: 8300000, guid: b32bac6d67cad49cfb88218528801986, type: 3}
+  deathSounds:
+  - {fileID: 8300000, guid: de16f86d060c744948c171dcb0093250, type: 3}
+  deathBodySounds: []
+  soundVolume: 0.5
+  encounterVolume: 0.78
+  phaseVolume: 1.25
+  encounterDialogue: "\uD544\uBA78\uC790 \uC8FC\uC81C\uC5D0 \uAC10\uD788 \uC5EC\uAE30\uAE4C\uC9C0 \uAE30\uC5B4\uB4E4\uC5B4 \uC654\uB290\uB0D0.|\uB124 \uC870\uC0C1\uB4E4\uC774 \uB0A0 \uAC00\uB480\uB4EF, \uB108\uB3C4 \uC774\uACF3\uC5D0\uC11C \uC369\uAC8C \uD574 \uC8FC\uB9C8."
+  deathDialogue: "\ub098\ub97c... \ubd09\uc778\ud560 \uc218 \uc788\uc744 \uac83 \uac19\uc73c\ub0d0... \ubd09\uc778\uc740 \uc601\uc6d0\ud558\uc9c0 \uc54a\ub2e4... \ub098\ub294 \ubc18\ub4dc\uc2dc... \ub2e4\uc2dc \ub3cc\uc544\uc628\ub2e4..."

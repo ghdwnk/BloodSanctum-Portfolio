@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fa5beda5d4e431dbaaab6fdd391649, type: 3}
+  m_Name: Weapon_Common_OldSword
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.EquipmentItem
+  itemName: "\uB0A1\uC740 \uAC80"
+  category: 0
+  grade: 0
+  sprite: {fileID: 21300000, guid: 7889127a7bdf7984f89d9e85cb7d35e6, type: 3}
+  sellPrice: 35
+  equipType: 0
+  weaponModelPrefab: {fileID: 6139681664441552115, guid: d2fc8179651ec483292d9896d715e4c3, type: 3}
+  attackBonus: 15
+  defenseBonus: 0
+  maxHPBonus: 0
+  critRateBonus: 0
+  critDamageBonus: 0
+  cooldownReductionBonus: 0
+  dashCooldownReductionBonus: 0
+  moveSpeedBonus: 0
+  attackSpeedBonus: 0
+  reviveOnDeath: 0
+  reviveHPRatio: 0.3
+  statRollMaxRatio: 1.5
+  specialEffectText: 

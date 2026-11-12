@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033829497d0bf4944a11ae75367344ec, type: 3}
+  m_Name: Zyrathon_MagicBolt
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGame.ProjectilePatternData
+  patternName: "\uB9C8\uB825\uD0C4"
+  description: 
+  minRange: 4
+  maxRange: 16
+  cooldown: 5
+  animationTrigger: MagicBolt
+  animationDelay: 0.4
+  duration: 1.8
+  effectPrefab: {fileID: 1933834615198909013, guid: cfdb77325b01d4b11bf10e79d6f8e87f, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: 0b771c8ddbcd1445d952dc6e37c063ac, type: 3}
+  soundVolume: 1
+  damageMultiplier: 0.9
+  projectilePrefab: {fileID: 5653425416815781081, guid: 0c37d285d3af847c9a8df7b913912e62, type: 3}
+  projectileCount: 1
+  spreadAngle: 0
+  spawnOffset: {x: 0, y: 1.4, z: 1.5}
+  windUpTime: 1.1
+  telegraphLength: 16
+  telegraphWidth: 2.2
+  burn:
+    damageMultiplier: 0.2
+    duration: 5
+    tickInterval: 1
+    effectPrefab: {fileID: 0}
