@@ -44,29 +44,6 @@ A 3D action RPG built solo in **Unity 6 (URP)**: five zones, a three-hit combo, 
 </tr>
 </table>
 
-## Code design
-
-Four files that show how the project is structured (captured in Rider).
-
-<table>
-<tr>
-<td width="50%"><img src="docs/code/01-boss-pattern-data.png" alt="BossPatternData"></td>
-<td width="50%"><img src="docs/code/03-skill-data.png" alt="DashStrikeSkillData"></td>
-</tr>
-<tr>
-<td><b><a href="Assets/RPGGame/Scripts/Monsters/Boss/Data/BossPatternData.cs">BossPatternData</a></b><br>Abstract ScriptableObject. Each attack is a subclass plus an asset; boss code never changes.</td>
-<td><b><a href="Assets/RPGGame/Scripts/Skill/DashStrikeSkillData.cs">DashStrikeSkillData</a></b><br>Skills derive from <code>SkillData</code>. Damage is <code>(flat + attack × ratio) × level</code>, so late-game attack does not scale skills linearly.</td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/code/02-damageable.png" alt="Damageable"></td>
-<td width="50%"><img src="docs/code/04-player-state-machine.png" alt="PlayerStateManager"></td>
-</tr>
-<tr>
-<td><b><a href="Assets/RPGGame/Scripts/Core/Damageable.cs">Damageable</a></b><br>The single entry for all damage: invulnerability window, defense, crit flag, events. <code>HPController</code> only subtracts and reports.</td>
-<td><b><a href="Assets/RPGGame/Scripts/Player/State/PlayerStateManager.cs">PlayerStateManager</a></b><br>One component per state; only the active one runs. Combo count is an enum plus animator states.</td>
-</tr>
-</table>
-
 ## Systems
 
 | System | Where | Notes |

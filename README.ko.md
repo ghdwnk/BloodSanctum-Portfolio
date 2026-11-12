@@ -44,29 +44,6 @@
 </tr>
 </table>
 
-## 코드 설계
-
-프로젝트 구조가 드러나는 파일 4개입니다 (Rider에서 캡처).
-
-<table>
-<tr>
-<td width="50%"><img src="docs/code/01-boss-pattern-data.png" alt="BossPatternData"></td>
-<td width="50%"><img src="docs/code/03-skill-data.png" alt="DashStrikeSkillData"></td>
-</tr>
-<tr>
-<td><b><a href="Assets/RPGGame/Scripts/Monsters/Boss/Data/BossPatternData.cs">BossPatternData</a></b><br>추상 ScriptableObject. 공격 하나가 자식 클래스 + 에셋이고, 보스 코드는 바뀌지 않습니다.</td>
-<td><b><a href="Assets/RPGGame/Scripts/Skill/DashStrikeSkillData.cs">DashStrikeSkillData</a></b><br>스킬은 <code>SkillData</code>를 상속합니다. 피해는 <code>(고정 + 공격력 × 계수) × 레벨 배율</code>이라 후반 공격력이 스킬에 그대로 비례하지 않습니다.</td>
-</tr>
-<tr>
-<td width="50%"><img src="docs/code/02-damageable.png" alt="Damageable"></td>
-<td width="50%"><img src="docs/code/04-player-state-machine.png" alt="PlayerStateManager"></td>
-</tr>
-<tr>
-<td><b><a href="Assets/RPGGame/Scripts/Core/Damageable.cs">Damageable</a></b><br>모든 피해의 단일 입구: 무적 시간, 방어력, 치명타 표시, 이벤트. <code>HPController</code>는 깎고 알리기만 합니다.</td>
-<td><b><a href="Assets/RPGGame/Scripts/Player/State/PlayerStateManager.cs">PlayerStateManager</a></b><br>상태마다 컴포넌트가 하나, 활성 상태만 동작합니다. 콤보 수는 enum과 애니메이터 상태로 정합니다.</td>
-</tr>
-</table>
-
 ## 시스템
 
 | 시스템 | 위치 | 내용 |
