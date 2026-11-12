@@ -14,6 +14,15 @@ This repository contains **only the original C# code and the game-data assets** 
 | Platform | Standalone (macOS build tested) |
 | Role | Everything — design, programming, balancing, UI, content |
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Village](docs/screenshots/01-village.jpg) | ![Skill combat](docs/screenshots/02-combat-skill.jpg) |
+| Village hub with HUD, minimap and quick slots | Dash Strike hitting a pack: damage numbers, level-up banner, slash VFX |
+| ![Inventory](docs/screenshots/03-inventory.jpg) | ![Boss encounter](docs/screenshots/04-boss-encounter.jpg) |
+| Tabbed inventory with fixed, draggable slots | Boss encounter: name, phase and HP bar with portrait dialogue |
+
 ## Gameplay
 
 - **Combat:** three-hit sword combo (the finisher always crits), dash with cooldown, aim assist and a short lunge toward the target, hit stop / camera shake / hit sparks for feedback.
